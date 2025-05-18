@@ -4,9 +4,36 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{DD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{50DB9608-04D3-43E2-968E-62956755694A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BCEC940F-440E-4083-BC4D-808898BB3F19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BAAD61C8-EC5B-4AB7-8375-E79D30781B40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F30BD1C4-0CC5-4012-8B11-5539EC79D56C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixClone.Shared", "Backend\src\NetflixClone.Shared\NetflixClone.Shared.csproj", "{FDD5BF5F-7F67-4508-BB4E-BCF9799A3639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixClone.DbMigrations", "Backend\src\NetflixClone.DbMigrations\NetflixClone.DbMigrations.csproj", "{477E6E20-88DE-488B-9E6C-6FE298D4C1F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCEC940F-440E-4083-BC4D-808898BB3F19} = {50DB9608-04D3-43E2-968E-62956755694A}
+		{BAAD61C8-EC5B-4AB7-8375-E79D30781B40} = {50DB9608-04D3-43E2-968E-62956755694A}
+		{F30BD1C4-0CC5-4012-8B11-5539EC79D56C} = {BCEC940F-440E-4083-BC4D-808898BB3F19}
+		{FDD5BF5F-7F67-4508-BB4E-BCF9799A3639} = {BCEC940F-440E-4083-BC4D-808898BB3F19}
+		{477E6E20-88DE-488B-9E6C-6FE298D4C1F2} = {BCEC940F-440E-4083-BC4D-808898BB3F19}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDD5BF5F-7F67-4508-BB4E-BCF9799A3639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD5BF5F-7F67-4508-BB4E-BCF9799A3639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD5BF5F-7F67-4508-BB4E-BCF9799A3639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD5BF5F-7F67-4508-BB4E-BCF9799A3639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477E6E20-88DE-488B-9E6C-6FE298D4C1F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477E6E20-88DE-488B-9E6C-6FE298D4C1F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477E6E20-88DE-488B-9E6C-6FE298D4C1F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477E6E20-88DE-488B-9E6C-6FE298D4C1F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
