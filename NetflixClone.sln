@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixClone.DbMigrations",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixClone.Authentication", "Backend\src\Services\NetflixClone.Authentication\NetflixClone.Authentication.csproj", "{273D0E54-0305-44F8-B499-916EE67681FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixClone.FilmCatalogService.Api", "Backend\src\Services\NetflixClone.FilmCatalogService.Api\NetflixClone.FilmCatalogService.Api.csproj", "{0E7907F6-8B08-4ADD-87EA-6A755128BF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixClone.UserActivityService.Api", "Backend\src\Services\NetflixClone.UserActivityService.Api\NetflixClone.UserActivityService.Api.csproj", "{6B0AC95A-3D4C-4B9A-91D5-60DA12B4019B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,8 @@ Global
 		{FDD5BF5F-7F67-4508-BB4E-BCF9799A3639} = {BCEC940F-440E-4083-BC4D-808898BB3F19}
 		{477E6E20-88DE-488B-9E6C-6FE298D4C1F2} = {BCEC940F-440E-4083-BC4D-808898BB3F19}
 		{273D0E54-0305-44F8-B499-916EE67681FF} = {F30BD1C4-0CC5-4012-8B11-5539EC79D56C}
+		{0E7907F6-8B08-4ADD-87EA-6A755128BF34} = {F30BD1C4-0CC5-4012-8B11-5539EC79D56C}
+		{6B0AC95A-3D4C-4B9A-91D5-60DA12B4019B} = {F30BD1C4-0CC5-4012-8B11-5539EC79D56C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FDD5BF5F-7F67-4508-BB4E-BCF9799A3639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,5 +48,13 @@ Global
 		{273D0E54-0305-44F8-B499-916EE67681FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{273D0E54-0305-44F8-B499-916EE67681FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{273D0E54-0305-44F8-B499-916EE67681FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7907F6-8B08-4ADD-87EA-6A755128BF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7907F6-8B08-4ADD-87EA-6A755128BF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7907F6-8B08-4ADD-87EA-6A755128BF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7907F6-8B08-4ADD-87EA-6A755128BF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0AC95A-3D4C-4B9A-91D5-60DA12B4019B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0AC95A-3D4C-4B9A-91D5-60DA12B4019B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0AC95A-3D4C-4B9A-91D5-60DA12B4019B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0AC95A-3D4C-4B9A-91D5-60DA12B4019B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
